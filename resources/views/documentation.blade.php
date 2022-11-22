@@ -23,7 +23,7 @@
         <aside class="hidden lg:relative lg:block lg:flex-none">
             <div class="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden z-0"></div>
 
-            <Link href="/" title="Splade.dev Home" class="sticky top-[4.5rem] left-0 w-full">
+            <Link href="/" title="Splade.dev Home" class="block sticky top-[4.5rem] left-0 w-full">
                 <x-logo class="ml-2 xl:ml-8 mr-10 xl:mr-18" />
             </Link>
 

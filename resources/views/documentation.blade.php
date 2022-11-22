@@ -1,12 +1,12 @@
 <div class="h-screen overflow-y-scroll">
     {{-- Mobile menu --}}
-    <nav class="lg:hidden bg-slate-50 flex py-4 border-b border-gray-200 shadow-sm items-center justify-center sticky top-0 z-20">
+    <nav class="lg:hidden bg-slate-50 dark:bg-slate-800 flex py-4 border-b border-gray-200 shadow-sm items-center justify-center sticky top-0 z-20">
         <Link href="/" title="Splade.dev Home">
             <x-logo class="h-6" />
         </Link>
 
-        <x-splade-modal slideover name="mobile-menu" max-width="sm">
-            <nav class="mx-auto">
+        <x-splade-modal slideover name="mobile-menu" max-width="sm" class="dark:bg-slate-800">
+            <nav class="mx-auto dark:bg-slate-800">
                 @include('links')
             </nav>
         </x-splade-modal>

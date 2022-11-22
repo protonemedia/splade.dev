@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Documentation;
+use Illuminate\Support\Str;
 use ProtoneMedia\Splade\Facades\SEO;
 
 class DocumentationController
@@ -18,7 +19,7 @@ class DocumentationController
         $metadata = $documentation->metadata($page);
 
         SEO::title($metadata['title'])
-            ->description($metadata['description'])
+            ->description(Str::limit($metadata['description'], 200))
             ->keywords($metadata['keywords']);
 
         return view('documentation', [

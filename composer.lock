@@ -2601,16 +2601,16 @@
         },
         {
             "name": "protonemedia/laravel-splade",
-            "version": "0.7.7",
+            "version": "0.7.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/protonemedia/laravel-splade.git",
-                "reference": "f07e2ce6d2ab3736437786501a3fbbe1e4f6b136"
+                "reference": "2da35ebd383e8ad8005a4ed4044ecb7ca2a0921c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/protonemedia/laravel-splade/zipball/f07e2ce6d2ab3736437786501a3fbbe1e4f6b136",
-                "reference": "f07e2ce6d2ab3736437786501a3fbbe1e4f6b136",
+                "url": "https://api.github.com/repos/protonemedia/laravel-splade/zipball/2da35ebd383e8ad8005a4ed4044ecb7ca2a0921c",
+                "reference": "2da35ebd383e8ad8005a4ed4044ecb7ca2a0921c",
                 "shasum": ""
             },
             "require": {
@@ -2669,7 +2669,7 @@
             ],
             "support": {
                 "issues": "https://github.com/protonemedia/laravel-splade/issues",
-                "source": "https://github.com/protonemedia/laravel-splade/tree/0.7.7"
+                "source": "https://github.com/protonemedia/laravel-splade/tree/0.7.8"
             },
             "funding": [
                 {
@@ -2677,7 +2677,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-11-19T13:18:08+00:00"
+            "time": "2022-11-22T11:36:20+00:00"
         },
         {
             "name": "psr/container",

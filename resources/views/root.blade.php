@@ -11,7 +11,7 @@
         @vite('resources/js/app.js')
 
         @production
-            <script src="https://van-trusting.splade.dev/script.js" data-site="{{ config('services.fathom.site_id') }}" defer></script>
+            <script src="https://van-trusting.splade.dev/script.js" data-spa="auto" data-site="{{ config('services.fathom.site_id') }}" defer></script>
         @endproduction
     </head>
     <body class="font-sans antialiased overflow-hidden bg-white dark:bg-slate-900">

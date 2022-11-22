@@ -69,7 +69,7 @@
         class="bg-gradient-to-l from-rose-100 to-teal-100">
         <x-slot:title>Listen for <span class="highlight-pink">broadcasted events</span> and <span class="highlight-pink">control browser behavior</span>, like redirecting, refreshing, or showing a toast, from the backend?
 </x-slot:title>
-        The <span class="highlight-purple">Event Component</span> might be the most incredible Splade component of all. You may instruct pages to <span class="highlight-purple">listen to more or more events</span> and redirect, refresh, or show a toast when the event is broadcasted.
+        The <span class="font-bold">Event Component</span> might be the most incredible Splade component of all. You may instruct pages to <span class="font-bold">listen to more or more events</span> and redirect, refresh, or show a toast when the event is broadcasted.
     </x-feature>
 
     <x-feature

@@ -81,7 +81,7 @@
     </x-feature>
 
     <div class="snap-start min-h-screen w-full flex items-center justify-center bg-gradient-to-b from-gray-700 via-slate-900 to-black text-center">
-        <div class="font-display text-white text-2xl font-light tracking-wide space-y-3 sm:space-y-5 px-8 max-w-5xl py-16">
+        <div class="font-display text-white text-2xl font-light tracking-wide space-y-3 sm:space-y-5 px-8 max-w-5xl pt-16 pb-32 sm:pb-16">
             <h4 class="sm:text-3xl md:text-4xl pb-4 sm:pb-8 leading-9">Splade allows you to build <span class="font-semibold">Single Page Applications</span> with the <span class="font-semibold">Laravel Blade</span> templating engine while still having the full power of <span class="font-semibold">Vue.js</span>.</h4>
             <h4 class="sm:text-3xl md:text-4xl pb-4 sm:pb-8 leading-9">Besides all the built-in components, you can use <span class="font-semibold">existing Blade and Vue libraries</span>. It's not about replacing JavaScript. It's about giving you a <span class="font-semibold">massive head start</span> with the built-in components.</h4>
             <h6><a class="font-medium underline" href="https://github.com/protonemedia/laravel-splade" target="_blank">Open source</a> MIT License.</h6>

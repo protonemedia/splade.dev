@@ -1,0 +1,66 @@
+@tailwind base;
+
+[v-cloak] {
+    display: none;
+}
+
+/*
+ Margin and rounding are personal preferences,
+ overflow-x-auto is recommended.
+*/
+pre {
+    @apply my-4 rounded overflow-x-auto;
+}
+
+.home-code-example pre {
+    @apply my-0 text-sm md:text-base;
+}
+
+/*
+ Add some vertical padding and expand the width
+ to fill its container. The horizontal padding
+ comes at the line level so that background
+ colors extend edge to edge.
+*/
+pre code.torchlight {
+    @apply block py-4 min-w-max;
+}
+
+.home-code-example pre code.torchlight {
+    @apply bg-slate-800 !important;
+}
+
+/*
+ Horizontal line padding.
+*/
+pre code.torchlight .line {
+    @apply px-4 py-1;
+}
+
+.home-code-example pre code.torchlight .line {
+    @apply md:px-8 py-2;
+}
+
+/*
+ Push the code away from the line numbers and
+ summary caret indicators.
+*/
+pre code.torchlight .line-number,
+pre code.torchlight .summary-caret {
+    @apply mr-4;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+.highlight-pink {
+    @apply text-[#f34f83] font-bold;
+}
+
+.highlight-purple {
+    @apply text-[#632bd1] font-bold;
+}
+
+.home-yellow-button {
+    @apply font-medium text-gray-900 bg-yellow-400 hover:bg-yellow-500 px-6 py-3 transition hover:bg-gradient-to-r from-[#632bd1] to-[#f34f83] hover:text-white rounded-xl shadow
+}

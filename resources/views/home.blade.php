@@ -1,4 +1,4 @@
-<div class="snap-mandatory h-screen snap-y overflow-y-scroll">
+<div class="sm:snap-mandatory h-screen snap-y overflow-y-scroll">
     <div class="snap-start min-h-screen w-full flex items-center justify-center bg-gradient-to-b from-slate-300 via-gray-200 to-slate-50 relative dark:from-slate-900 dark:via-gray-900 dark:to-slate-800">
         <div class="flex flex-col items-center px-8 relative py-16 min-h-screen">
             <div class="flex flex-col items-center mt-auto">

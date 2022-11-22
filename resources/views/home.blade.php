@@ -45,7 +45,7 @@
         docs="x-data" markdown="data"
         class="bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-fuchsia-200 via-green-300 to-rose-700">
         <x-slot:title><span class="highlight-pink">Async requests</span> and <span class="highlight-purple">interactive elements</span> without creating components or writing JavaScript?</x-slot:title>
-        You may use the Data Component to interact with a set of reactive data inside the component. To get started, you don't even need to define a structure of a default set of data.
+        You may use the Data Component to interact with a set of reactive data inside the component. To get started, you don't even need to define a structure or a default set of data.
     </x-feature>
 
     <x-feature

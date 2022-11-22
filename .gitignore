@@ -16,3 +16,4 @@ yarn-error.log
 /.vscode
 public/sitemap.xml
 bootstrap/ssr/ssr.mjs
+deploy.php

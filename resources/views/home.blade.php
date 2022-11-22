@@ -16,7 +16,7 @@
             </div>
 
             <div class="mt-auto flex flex-col md:flex-row pt-16 space-y-4 md:space-y-0 md:space-x-4 text-xl text-center">
-                <a class="home-yellow-button" href="/docs">Docs</a>
+                <Link class="home-yellow-button" href="/docs">Docs</Link>
                 <a class="home-yellow-button" target="_blank" href="https://github.com/protonemedia/laravel-splade">GitHub</a>
                 <a class="home-yellow-button" target="_blank" href="https://www.youtube.com/watch?v=9V9BUHtvwXI">Introduction Video</a>
                 <a class="home-yellow-button" target="_blank" href="https://twitter.com/pascalbaljet">Twitter</a>

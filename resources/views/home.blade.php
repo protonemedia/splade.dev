@@ -4,8 +4,8 @@
             <div class="flex flex-col items-center mt-auto">
                 <x-logo class="max-w-3xl w-full" />
 
-                <h2 class="text-3xl max-w-xl xl:max-w-none sm:text-4xl mt-8 font-display font-light tracking-wide text-center dark:text-white">
-                    The <span class="tracking-normal font-extrabold bg-clip-text text-transparent bg-gradient-to-b from-[#632bd1] to-[#f34f83]">magic</span> of Inertia.js with the <span class="tracking-normal font-extrabold bg-clip-text text-transparent bg-gradient-to-t from-[#632bd1] to-[#f34f83]">simplicity</span> of Blade
+                <h2 class="text-3xl max-w-xl xl:max-w-none sm:text-4xl mt-8 font-display font-light tracking-wide text-center text-slate-800 dark:text-white">
+                    The <span class="tracking-normal font-bold bg-clip-text text-transparent bg-gradient-to-b from-[#632bd1] to-[#f34f83]">magic</span> of Inertia.js with the <span class="tracking-normal font-bold bg-clip-text text-transparent bg-gradient-to-t from-[#632bd1] to-[#f34f83]">simplicity</span> of Blade
                 </h2>
 
                 <button class="hidden md:block" @click.prevent="(e) => e.target.getRootNode().getElementById('feature-1').scrollIntoView({ behavior: 'smooth' })">
@@ -16,10 +16,10 @@
             </div>
 
             <div class="mt-auto flex flex-col md:flex-row pt-16 space-y-4 md:space-y-0 md:space-x-4 text-xl text-center">
-                <Link class="home-yellow-button" href="/docs">Docs</Link>
-                <a class="home-yellow-button" target="_blank" href="https://github.com/protonemedia/laravel-splade">GitHub</a>
-                <a class="home-yellow-button" target="_blank" href="https://www.youtube.com/watch?v=9V9BUHtvwXI">Introduction Video</a>
-                <a class="home-yellow-button" target="_blank" href="https://twitter.com/pascalbaljet">Twitter</a>
+                <Link class="inline-block text-center rounded-md border border-transparent bg-[#632bd1] px-4 py-2 text-sm font-medium text-white shadow-md transition hover:bg-[#4D21A2] focus:outline-none focus:ring-2 focus:ring-[#7B4BDA] focus:ring-offset-2" href="/docs">Docs</Link>
+                <a class="inline-block text-center rounded-md border border-transparent bg-[#632bd1] px-4 py-2 text-sm font-medium text-white shadow-md transition hover:bg-[#4D21A2] focus:outline-none focus:ring-2 focus:ring-[#7B4BDA] focus:ring-offset-2" target="_blank" href="https://github.com/protonemedia/laravel-splade">GitHub</a>
+                <a class="inline-block text-center rounded-md border border-transparent bg-[#632bd1] px-4 py-2 text-sm font-medium text-white shadow-md transition hover:bg-[#4D21A2] focus:outline-none focus:ring-2 focus:ring-[#7B4BDA] focus:ring-offset-2" target="_blank" href="https://www.youtube.com/watch?v=9V9BUHtvwXI">Introduction Video</a>
+                <a class="inline-block text-center rounded-md border border-transparent bg-[#632bd1] px-4 py-2 text-sm font-medium text-white shadow-md transition hover:bg-[#4D21A2] focus:outline-none focus:ring-2 focus:ring-[#7B4BDA] focus:ring-offset-2" target="_blank" href="https://twitter.com/pascalbaljet">Twitter</a>
             </div>
         </div>
     </div>

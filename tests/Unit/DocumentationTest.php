@@ -25,7 +25,7 @@ class DocumentationTest extends TestCase
                 'Introducing Splade' => 'introducing-splade',
                 'Credits'            => 'credits',
             ],
-            'Table' => [
+            'Table'        => [
                 'Overview' => 'table-overview',
             ],
         ], $this->documentation->index()->all());

@@ -6,7 +6,7 @@ return [
      * Here you can register fonts to call from the @googlefonts Blade directive.
      * The google-fonts:fetch command will prefetch these fonts.
      */
-    'fonts' => [
+    'fonts'      => [
         'default' => 'https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap',
         'work'    => 'https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap',
         'display' => 'https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap',
@@ -16,25 +16,25 @@ return [
      * This disk will be used to store local Google Fonts. The public disk
      * is the default because it can be served over HTTP with storage:link.
      */
-    'disk' => 'public',
+    'disk'       => 'public',
 
     /*
      * Prepend all files that are written to the selected disk with this path.
      * This allows separating the fonts from other data in the public disk.
      */
-    'path' => 'fonts',
+    'path'       => 'fonts',
 
     /*
      * By default, CSS will be inlined to reduce the amount of round trips
      * browsers need to make in order to load the requested font files.
      */
-    'inline' => true,
+    'inline'     => true,
 
     /*
      * When something goes wrong fonts are loaded directly from Google.
      * With fallback disabled, this package will throw an exception.
      */
-    'fallback' => !env('APP_DEBUG'),
+    'fallback'   => !env('APP_DEBUG'),
 
     /*
      * This user agent will be used to request the stylesheet from Google Fonts.

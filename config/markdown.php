@@ -27,7 +27,7 @@ return [
     |
     */
 
-    'views' => true,
+    'views'              => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -44,7 +44,7 @@ return [
     |
     */
 
-    'extensions' => [
+    'extensions'         => [
         League\CommonMark\Extension\CommonMark\CommonMarkCoreExtension::class,
         League\CommonMark\Extension\FrontMatter\FrontMatterExtension::class,
         League\CommonMark\Extension\Table\TableExtension::class,
@@ -68,7 +68,7 @@ return [
     |
     */
 
-    'renderer' => [
+    'renderer'           => [
         'block_separator' => "\n",
         'inner_separator' => "\n",
         'soft_break'      => "\n",
@@ -91,7 +91,7 @@ return [
     |
     */
 
-    'commonmark' => [
+    'commonmark'         => [
         'enable_em'              => true,
         'enable_strong'          => true,
         'use_asterisk'           => true,
@@ -110,7 +110,7 @@ return [
     |
     */
 
-    'html_input' => 'allow',
+    'html_input'         => 'allow',
 
     /*
     |--------------------------------------------------------------------------
@@ -136,7 +136,7 @@ return [
     |
     */
 
-    'max_nesting_level' => PHP_INT_MAX,
+    'max_nesting_level'  => PHP_INT_MAX,
 
     /*
     |--------------------------------------------------------------------------
@@ -152,7 +152,7 @@ return [
     |
     */
 
-    'slug_normalizer' => [
+    'slug_normalizer'    => [
         'max_length' => 255,
         'unique'     => 'document',
     ],

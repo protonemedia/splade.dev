@@ -15,7 +15,7 @@
         "laravel/tinker": "^2.7",
         "predis/predis": "^2.0",
         "protonemedia/laravel-mixins": "^3.3",
-        "protonemedia/laravel-splade": "^0.7.7",
+        "protonemedia/laravel-splade": "^1.1",
         "spatie/laravel-google-fonts": "^1.2",
         "spatie/laravel-sitemap": "^6.2",
         "symfony/process": "^6.1",

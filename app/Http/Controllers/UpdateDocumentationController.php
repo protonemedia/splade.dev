@@ -13,5 +13,7 @@ class UpdateDocumentationController
         abort_unless($request->query('signature') === config('services.update_docs_signature'), 403);
 
         dispatch(fn () => Artisan::call(UpdateDocumentationRepository::class));
+
+        return response('OK');
     }
 }

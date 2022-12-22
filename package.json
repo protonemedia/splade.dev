@@ -6,7 +6,7 @@
         "eslint": "./node_modules/.bin/eslint resources/js/ --ext .js,.vue --fix"
     },
     "devDependencies": {
-        "@protonemedia/laravel-splade": "^0.7.7",
+        "@protonemedia/laravel-splade": "^1.1.2",
         "@tailwindcss/aspect-ratio": "^0.4.2",
         "@tailwindcss/forms": "^0.5.2",
         "@tailwindcss/typography": "^0.5.2",

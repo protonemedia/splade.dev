@@ -20,7 +20,7 @@
 
     <div class="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12 min-h-screen">
         {{-- Desktop menu --}}
-        <aside class="hidden lg:relative lg:block lg:flex-none">
+        <aside class="hidden lg:relative lg:block lg:flex-none max-w-[18rem]">
             <div class="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden z-0"></div>
 
             <Link href="/" title="Splade.dev Home" class="block sticky top-[4.5rem] left-0 w-full">

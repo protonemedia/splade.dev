@@ -14,18 +14,18 @@ return [
     |
     */
 
-    'mailgun'               => [
+    'mailgun' => [
         'domain'   => env('MAILGUN_DOMAIN'),
         'secret'   => env('MAILGUN_SECRET'),
         'endpoint' => env('MAILGUN_ENDPOINT', 'api.mailgun.net'),
         'scheme'   => 'https',
     ],
 
-    'postmark'              => [
+    'postmark' => [
         'token' => env('POSTMARK_TOKEN'),
     ],
 
-    'ses'                   => [
+    'ses' => [
         'key'    => env('AWS_ACCESS_KEY_ID'),
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
@@ -33,7 +33,7 @@ return [
 
     'update_docs_signature' => env('UPDATE_DOCS_SIGNATURE'),
 
-    'fathom'                => [
+    'fathom' => [
         'site_id' => env('FATHOM_SITE_ID'),
     ],
 

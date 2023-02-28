@@ -64,3 +64,18 @@ pre code.torchlight .summary-caret {
 .home-yellow-button {
     @apply font-medium text-gray-900 bg-yellow-400 hover:bg-yellow-500 px-6 py-3 transition hover:bg-gradient-to-r from-[#632bd1] to-[#f34f83] hover:text-white rounded-xl shadow
 }
+
+#docsearch {
+    --docsearch-primary-color: rgb(14 165 233);
+    --docsearch-searchbox-background: rgb(248 250 252);
+    --docsearch-muted-color: rgb(100 116 139);
+}
+
+/* Algolia search */
+.DocSearch-Button {
+    @apply !ml-0;
+}
+
+.DocSearch-Button-Placeholder {
+    @apply !px-4;
+}

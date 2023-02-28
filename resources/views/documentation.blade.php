@@ -1,6 +1,10 @@
 <div class="h-screen overflow-y-scroll">
     {{-- Mobile menu --}}
     <nav class="lg:hidden bg-slate-50 dark:bg-slate-800 flex py-4 border-b border-gray-200 shadow-sm items-center justify-center sticky top-0 z-20">
+        <div class="lg:hidden absolute left-0 h-full flex items-center justify-center top-0 pl-2">
+            <x-search />
+        </div>
+
         <Link href="/" title="Splade.dev Home">
             <x-logo class="h-6" />
         </Link>
@@ -36,6 +40,10 @@
 
         {{-- Actual documentation content --}}
         <main class="min-w-0 max-w-2xl flex-auto px-4 pt-8 pb-24 sm:py-16 lg:max-w-none lg:pr-0 lg:pl-8 xl:px-16 z-10">
+            <div class="hidden lg:block mb-8">
+                <x-search />
+            </div>
+
             <x-splade-content
                 as="article"
                 class="prose-pre:p-0 prose prose-slate max-w-none dark:prose-invert dark:text-slate-400 prose-headings:scroll-mt-28 prose-headings:font-display prose-headings:font-normal lg:prose-headings:scroll-mt-[8.5rem] prose-lead:text-slate-500 dark:prose-lead:text-slate-400 prose-a:font-semibold dark:prose-a:text-sky-400 prose-a:no-underline prose-a:shadow-[inset_0_-2px_0_0_var(--tw-prose-background,#fff),inset_0_calc(-1*(var(--tw-prose-underline-size,4px)+2px))_0_0_var(--tw-prose-underline,theme(colors.sky.300))] hover:prose-a:[--tw-prose-underline-size:6px] dark:[--tw-prose-background:theme(colors.slate.900)] dark:prose-a:shadow-[inset_0_calc(-1*var(--tw-prose-underline-size,2px))_0_0_var(--tw-prose-underline,theme(colors.sky.800))] dark:hover:prose-a:[--tw-prose-underline-size:6px] prose-pre:rounded-xl prose-pre:bg-slate-900 prose-pre:shadow-lg dark:prose-pre:bg-slate-800/60 dark:prose-pre:shadow-none dark:prose-pre:ring-1 dark:prose-pre:ring-slate-300/10 dark:prose-hr:border-slate-800 break-words"

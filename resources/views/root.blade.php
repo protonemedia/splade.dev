@@ -6,6 +6,7 @@
 
         @googlefonts
         @googlefonts('display')
+        <link rel="preconnect" href="https://{{ config('services.algolia.app_id') }}-dsn.algolia.net" crossorigin />
 
         @spladeHead
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

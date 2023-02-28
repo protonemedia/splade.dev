@@ -1,5 +1,8 @@
 <template>
-    <div id="docsearch" ref="docsearch" />
+  <div
+    id="docsearch"
+    ref="docsearch"
+  />
 </template>
 
 <script>

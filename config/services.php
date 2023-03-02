@@ -41,6 +41,10 @@ return [
         'app_id'     => env('ALGOLIA_APP_ID'),
         'api_key'    => env('ALGOLIA_API_KEY'),
         'index_name' => env('ALGOLIA_INDEX_NAME'),
+
+        'crawler_id'      => env('ALGOLIA_CRAWLER_ID'),
+        'crawler_user_id' => env('ALGOLIA_CRAWLER_USER_ID'),
+        'crawler_api_key' => env('ALGOLIA_CRAWLER_API_KEY'),
     ],
 
 ];

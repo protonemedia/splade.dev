@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use App\Documentation;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\Http;
 use Symfony\Component\Process\Process;
 
 class UpdateDocumentationRepository extends Command
@@ -47,6 +48,11 @@ class UpdateDocumentationRepository extends Command
 
         $this->info('Generating new sitemap...');
         Artisan::call('sitemap:generate');
+
+        $this->info('Reindex Algolia...');
+        Http::asJson()
+            ->withBasicAuth(config('services.algolia.crawler_user_id'), config('services.algolia.crawler_api_key'))
+            ->post('https://crawler.algolia.com/api/1/crawlers/' . config('services.algolia.crawler_id') . '/reindex');
 
         $this->info('Done!');
 

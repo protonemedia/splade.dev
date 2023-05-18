@@ -1,6 +1,6 @@
 <div class="h-screen overflow-y-scroll">
     {{-- Mobile menu --}}
-    <nav class="lg:hidden bg-slate-50 dark:bg-slate-800 flex py-4 border-b border-gray-200 shadow-sm items-center justify-center sticky top-0 z-20">
+    <nav class="lg:hidden bg-slate-50 dark:bg-slate-800 flex py-4 border-b border-gray-200 dark:border-slate-700 shadow-sm items-center justify-center sticky top-0 z-20">
         <div class="lg:hidden absolute left-0 h-full flex items-center justify-center top-0 pl-2">
             <x-search />
         </div>

@@ -3,7 +3,7 @@
         <li>
             <h2 class="font-display font-medium text-slate-900 dark:text-white">{{ $header }}</h2>
 
-            <ul class="mt-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200">
+            <ul class="mt-2 space-y-2 border-l-2 border-slate-100 dark:border-slate-800 lg:mt-4 lg:space-y-4 lg:border-slate-200 lg:dark:border-slate-700">
                 @foreach($section as $title => $link)
                     <li class="relative">
                         <Link href="{{ route('docs', $link) }}" @class([

@@ -87,6 +87,7 @@
             <h4 class="sm:text-3xl md:text-4xl pb-4 sm:pb-8 leading-9">Besides all the built-in components, you can use <span class="font-semibold">existing Blade and Vue libraries</span>. It's not about replacing JavaScript. It's about giving you a <span class="font-semibold">massive head start</span> with the built-in components.</h4>
             <h6><a class="font-medium underline" href="https://github.com/protonemedia/laravel-splade" target="_blank">Open source</a> MIT License.</h6>
             <h5>Brought to you by <a class="font-medium underline" href="https://github.com/protonemedia" target="_blank">Protone Media</a>.</h5>
+            <h5>Hosted using <a class="font-medium underline" href="https://eddy.management" target="_blank">Eddy Server Management</a>.</h5>
         </div>
     </div>
 </div>

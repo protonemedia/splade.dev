@@ -12,6 +12,10 @@
         <x-splade-modal slideover name="mobile-menu" max-width="sm" class="dark:bg-slate-800">
             <nav class="mx-auto dark:bg-slate-800">
                 @include('links')
+
+                <div class="mt-8 w-full max-w-[210px] sm:max-w-none">
+                    @include('eddy-reference')
+                </div>
             </nav>
         </x-splade-modal>
 
@@ -35,6 +39,10 @@
                 <nav class="px-2 xl:px-8">
                     @include('links')
                 </nav>
+
+                <div class="mt-8 px-2 xl:px-8">
+                    @include('eddy-reference')
+                </div>
             </div>
         </aside>
 

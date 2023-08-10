@@ -15,6 +15,13 @@
 
                 <div class="mt-8 w-full max-w-[210px] sm:max-w-none">
                     @include('eddy-reference')
+
+                    <a
+                        href="https://www.youtube.com/watch?v=xf9XxmEor5k"
+                        target="_blank"
+                        class="block mt-8 bg-gradient-to-r from-[#632bd1] to-[#f34f83] text-center text-white font-semibold py-1 ">
+                        Splade v2 Sneak Peek 👀
+                    </a>
                 </div>
             </nav>
         </x-splade-modal>
@@ -42,6 +49,13 @@
 
                 <div class="mt-8 px-2 xl:px-8">
                     @include('eddy-reference')
+
+                    <a
+                        href="https://www.youtube.com/watch?v=xf9XxmEor5k"
+                        target="_blank"
+                        class="block mt-8 bg-gradient-to-r from-[#632bd1] to-[#f34f83] text-center text-white font-semibold py-1 ">
+                        Splade v2 Sneak Peek 👀
+                    </a>
                 </div>
             </div>
         </aside>

@@ -1,5 +1,11 @@
 <div class="sm:snap-mandatory h-screen snap-y overflow-y-scroll">
     <div class="snap-start min-h-screen w-full flex items-center justify-center bg-gradient-to-b from-slate-300 via-gray-200 to-slate-50 relative dark:from-slate-900 dark:via-gray-900 dark:to-slate-800">
+        <a
+            href="https://www.youtube.com/watch?v=xf9XxmEor5k"
+            target="_blank"
+            class="absolute z-10 md:transform md:-rotate-45 bg-gradient-to-r from-[#632bd1] to-[#f34f83] text-center text-white font-semibold py-1 md:left-[-48px] top-0 left-0 md:top-[61px] w-full md:w-[250px]">
+            Splade v2 Sneak Peek 👀
+        </a>
         <div class="flex flex-col items-center px-8 relative py-16 min-h-screen">
             <div class="flex flex-col items-center mt-auto">
                 <x-logo class="max-w-3xl w-full" />

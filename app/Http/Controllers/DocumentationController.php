@@ -8,7 +8,7 @@ use ProtoneMedia\Splade\Facades\SEO;
 
 class DocumentationController
 {
-    public function __invoke(Documentation $documentation, ?string $page = null)
+    public function __invoke(Documentation $documentation, string $page = null)
     {
         if (!$page) {
             return redirect()->route('docs', [

@@ -4,13 +4,19 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use ProtoneMedia\Splade\Facades\Toast;
+use Spatie\Honeypot\Honeypot;
 use Spatie\MailcoachSdk\Facades\Mailcoach;
 
 class NewsletterController
 {
-    public function create()
+    public function create(Honeypot $honeypot)
     {
-        return view('newsletter', []);
+        return view('newsletter', [
+            'honeypot' => [
+                $honeypot->nameFieldName()      => '',
+                $honeypot->validFromFieldName() => $honeypot->encryptedValidFrom(),
+            ],
+        ]);
     }
 
     public function store(Request $request)
@@ -21,7 +27,7 @@ class NewsletterController
 
         Mailcoach::createSubscriber(
             emailListUuid: config('mailcoach-sdk.list'),
-            attributes: [$data + ['tags' => 'Splade.dev']]
+            attributes: $data + ['tags' => ['Splade.dev']]
         );
 
         Toast::success('You have been subscribed to the newsletter!');

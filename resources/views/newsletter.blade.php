@@ -3,7 +3,7 @@
 <div class="min-h-screen flex items-center justify-center">
     <div class="max-w-2xl mx-auto">
         <x-splade-modal max-width="lg">
-            <x-splade-form class="space-y-4" :action="route('newsletter.store')">
+            <x-splade-form class="space-y-4" :default="$honeypot" :action="route('newsletter.store')">
                 <h1 class="text-2xl font-bold">
                     Subscribe to the Splade Newsletter!
                 </h1>

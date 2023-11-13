@@ -2,10 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Documentation;
 use Illuminate\Http\Request;
-use Illuminate\Support\Str;
-use ProtoneMedia\Splade\Facades\SEO;
 use ProtoneMedia\Splade\Facades\Toast;
 use Spatie\MailcoachSdk\Facades\Mailcoach;
 

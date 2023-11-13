@@ -27,6 +27,7 @@
                 <a class="inline-block text-center rounded-md border border-transparent bg-[#632bd1] px-4 py-2 text-sm font-medium text-white shadow-md transition hover:bg-[#4D21A2] focus:outline-none focus:ring-2 focus:ring-[#7B4BDA] focus:ring-offset-2" target="_blank" href="https://www.youtube.com/watch?v=9V9BUHtvwXI">Introduction Video</a>
                 <a class="inline-block text-center rounded-md border border-transparent bg-[#632bd1] px-4 py-2 text-sm font-medium text-white shadow-md transition hover:bg-[#4D21A2] focus:outline-none focus:ring-2 focus:ring-[#7B4BDA] focus:ring-offset-2" target="_blank" href="https://discord.gg/qGJ4MkMQWm">Discord</a>
                 <a class="inline-block text-center rounded-md border border-transparent bg-[#632bd1] px-4 py-2 text-sm font-medium text-white shadow-md transition hover:bg-[#4D21A2] focus:outline-none focus:ring-2 focus:ring-[#7B4BDA] focus:ring-offset-2" target="_blank" href="https://twitter.com/pascalbaljet">Twitter</a>
+                <Link modal class="inline-block text-center rounded-md border border-transparent bg-[#632bd1] px-4 py-2 text-sm font-medium text-white shadow-md transition hover:bg-[#4D21A2] focus:outline-none focus:ring-2 focus:ring-[#7B4BDA] focus:ring-offset-2" target="_blank" href="{{ route('newsletter.create') }}">Newsletter</Link>
             </div>
         </div>
     </div>

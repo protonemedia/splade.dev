@@ -17,6 +17,8 @@
         "protonemedia/laravel-mixins": "^3.3",
         "protonemedia/laravel-splade": "^1.2.15",
         "spatie/laravel-google-fonts": "^1.2",
+        "spatie/laravel-honeypot": "^4.3",
+        "spatie/laravel-mailcoach-sdk": "^1.1",
         "spatie/laravel-sitemap": "^6.2",
         "symfony/process": "^6.1",
         "symfony/yaml": "^6.1",

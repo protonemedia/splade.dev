@@ -19,7 +19,7 @@
         @vite('resources/js/app.js')
 
         @production
-            <script src="https://van-trusting.splade.dev/script.js" data-spa="auto" data-site="{{ config('services.fathom.site_id') }}" defer></script>
+            <script defer src="https://helloworld.protone.media/hey.js" data-website-id="6c225784-a461-4544-940e-af895e29f179"></script>
         @endproduction
     </head>
     <body class="font-sans antialiased overflow-hidden bg-white dark:bg-slate-900">

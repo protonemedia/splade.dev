@@ -1,13 +1,15 @@
-<div class="sm:snap-mandatory h-screen snap-y overflow-y-scroll">
-    <div class="snap-start min-h-screen w-full flex items-center justify-center bg-gradient-to-b from-slate-300 via-gray-200 to-slate-50 relative dark:from-slate-900 dark:via-gray-900 dark:to-slate-800">
+<div class="h-screen overflow-y-scroll">
+    <div class="min-h-screen w-full flex items-center justify-center bg-gradient-to-b from-slate-300 via-gray-200 to-slate-50 relative dark:from-slate-900 dark:via-gray-900 dark:to-slate-800">
         <a
-            href="https://www.youtube.com/watch?v=xf9XxmEor5k"
+            href="https://inertiaui.com?utm_source=splade&utm_medium=welcome&utm_campaign=hero"
             target="_blank"
             class="absolute z-10 md:transform md:-rotate-45 bg-gradient-to-r from-[#632bd1] to-[#f34f83] text-center text-white font-semibold py-1 md:left-[-48px] top-0 left-0 md:top-[61px] w-full md:w-[250px]">
-            Splade v2 Sneak Peek 👀
+            Check out Inertia UI 🔥
         </a>
         <div class="flex flex-col items-center px-8 relative py-16 min-h-screen">
             <div class="flex flex-col items-center mt-auto">
+                <x-goodbye-my-friend class="mb-16 max-w-3xl" medium="hero" />
+
                 <x-logo class="max-w-3xl w-full" />
 
                 <h2 class="text-3xl max-w-xl xl:max-w-none sm:text-4xl mt-8 font-display font-light tracking-wide text-center text-slate-800 dark:text-white">
@@ -25,7 +27,6 @@
                 <Link class="inline-block text-center rounded-md border border-transparent bg-[#632bd1] px-4 py-2 text-sm font-medium text-white shadow-md transition hover:bg-[#4D21A2] focus:outline-none focus:ring-2 focus:ring-[#7B4BDA] focus:ring-offset-2" href="/docs">Docs</Link>
                 <a class="inline-block text-center rounded-md border border-transparent bg-[#632bd1] px-4 py-2 text-sm font-medium text-white shadow-md transition hover:bg-[#4D21A2] focus:outline-none focus:ring-2 focus:ring-[#7B4BDA] focus:ring-offset-2" target="_blank" href="https://github.com/protonemedia/laravel-splade">GitHub</a>
                 <a class="inline-block text-center rounded-md border border-transparent bg-[#632bd1] px-4 py-2 text-sm font-medium text-white shadow-md transition hover:bg-[#4D21A2] focus:outline-none focus:ring-2 focus:ring-[#7B4BDA] focus:ring-offset-2" target="_blank" href="https://www.youtube.com/watch?v=9V9BUHtvwXI">Introduction Video</a>
-                <a class="inline-block text-center rounded-md border border-transparent bg-[#632bd1] px-4 py-2 text-sm font-medium text-white shadow-md transition hover:bg-[#4D21A2] focus:outline-none focus:ring-2 focus:ring-[#7B4BDA] focus:ring-offset-2" target="_blank" href="https://discord.gg/qGJ4MkMQWm">Discord</a>
                 <a class="inline-block text-center rounded-md border border-transparent bg-[#632bd1] px-4 py-2 text-sm font-medium text-white shadow-md transition hover:bg-[#4D21A2] focus:outline-none focus:ring-2 focus:ring-[#7B4BDA] focus:ring-offset-2" target="_blank" href="https://twitter.com/pascalbaljet">Twitter</a>
                 <Link modal class="inline-block text-center rounded-md border border-transparent bg-[#632bd1] px-4 py-2 text-sm font-medium text-white shadow-md transition hover:bg-[#4D21A2] focus:outline-none focus:ring-2 focus:ring-[#7B4BDA] focus:ring-offset-2" target="_blank" href="{{ route('newsletter.create') }}">Newsletter</Link>
             </div>
@@ -88,13 +89,12 @@
         The Lazy Component allows you to load sections of your <span class="font-bold">data and template lazily</span>. Splade also has support for Persistent Layouts, like a media player that <span class="font-bold">must continue playing</span> while your users navigate your app.
     </x-feature>
 
-    <div class="snap-start min-h-screen w-full flex items-center justify-center bg-gradient-to-b from-gray-700 via-slate-900 to-black text-center">
+    <div class="min-h-screen w-full flex items-center justify-center bg-gradient-to-b from-gray-700 via-slate-900 to-black text-center">
         <div class="font-display text-white text-2xl font-light tracking-wide space-y-3 sm:space-y-5 px-8 max-w-5xl pt-16 pb-32 sm:pb-16">
             <h4 class="sm:text-3xl md:text-4xl pb-4 sm:pb-8 leading-9">Splade allows you to build <span class="font-semibold">Single Page Applications</span> with the <span class="font-semibold">Laravel Blade</span> templating engine while still having the full power of <span class="font-semibold">Vue.js</span>.</h4>
             <h4 class="sm:text-3xl md:text-4xl pb-4 sm:pb-8 leading-9">Besides all the built-in components, you can use <span class="font-semibold">existing Blade and Vue libraries</span>. It's not about replacing JavaScript. It's about giving you a <span class="font-semibold">massive head start</span> with the built-in components.</h4>
             <h6><a class="font-medium underline" href="https://github.com/protonemedia/laravel-splade" target="_blank">Open source</a> MIT License.</h6>
             <h5>Brought to you by <a class="font-medium underline" href="https://github.com/protonemedia" target="_blank">Protone Media</a>.</h5>
-            <h5>Hosted using <a class="font-medium underline" href="https://eddy.management" target="_blank">Eddy Server Management</a>.</h5>
         </div>
     </div>
 </div>

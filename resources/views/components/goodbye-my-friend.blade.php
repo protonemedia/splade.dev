@@ -1,0 +1,4 @@
+<div {{ $attributes->class('p-4 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 border-l-4 border-red-400 dark:border-red-500 shadow-sm space-y-3') }}>
+    <p>As of August 2024, Splade is no longer actively maintained. Though we will try to keep up with future Laravel and PHP versions, we discourage using Splade in new projects.</p>
+    <p>After a <a class="font-semibold underline" href="https://protone.media/en/blog/thoughts-on-splade-i-took-a-week-off-to-look-around-and-reflect">period of reflection</a>, we've come full circle and decided to bring the magic of Splade back to Inertia, where it all started. Please check out this new chapter in our journey: <a class="font-semibold underline" href="https://inertiaui.com?utm_source=splade&utm_medium={{ $medium }}&utm_campaign=warning">Inertia UI</a>.</p>
+</div>

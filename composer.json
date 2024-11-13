@@ -26,7 +26,7 @@
         "torchlight/torchlight-laravel": "^0.5.11"
     },
     "require-dev": {
-        "deployer/deployer": "^7.0",
+        "deployer/deployer": "^7.5",
         "laravel/dusk": "^8.2.11",
         "laravel/pint": "^1.2",
         "mockery/mockery": "^1.4.4",

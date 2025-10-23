@@ -17,10 +17,6 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="theme-color" content="#ffffff">
         @vite('resources/js/app.js')
-
-        @production
-            <script defer src="https://helloworld.protone.media/hey.js" data-website-id="6c225784-a461-4544-940e-af895e29f179"></script>
-        @endproduction
     </head>
     <body class="font-sans antialiased overflow-hidden bg-white dark:bg-slate-900">
         <div class="aspect-w-16 aspect-h-9 hidden"></div>

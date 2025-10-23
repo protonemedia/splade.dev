@@ -9,7 +9,7 @@ class DocumentationTest extends TestCase
 {
     private Documentation $documentation;
 
-    public function setUp(): void
+    protected function setUp(): void
     {
         parent::setUp();
 
